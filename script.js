@@ -16,9 +16,9 @@ function toggleVideoStatus() {
 // update play/pause icon
 function updatePlayIcon() {
   if (video.paused) {
-    play.innerHTML = '<i class="fa fa-play fa-2x"></i>';
+    play.innerHTML = '  <img src="Kanaohana.jpg" width="100px" style="border-radius:50px;"  alt="">';
   } else {
-    play.innerHTML = '<i class="fa fa-pause fa-2x"></i>';
+    play.innerHTML = '  <img src="Ohana.jpg" width="100px" style="border-radius:50px;"  alt="">';
   }
 }
 
